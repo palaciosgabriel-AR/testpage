@@ -1,0 +1,8 @@
+:root { color-scheme: light dark; }
+body { margin:0; font-family: system-ui, Arial, sans-serif; line-height:1.5; }
+.container { max-width: 720px; margin: 4rem auto; padding: 0 1rem; }
+h1 { font-size: clamp(1.8rem, 2.5vw + 1rem, 3rem); margin: 0 0 1rem; }
+button { padding: .7rem 1rem; border: 1px solid #888; border-radius: .6rem; background: transparent; cursor: pointer; }
+#count { font-size: 2rem; margin-top: .75rem; }
+.toggle { display: inline-flex; gap: .5rem; align-items: center; margin-top: 1rem; }
+.dark body, body.dark { background:#0b0c0e; color:#e7e7ea; }
